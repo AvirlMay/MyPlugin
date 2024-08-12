@@ -1,0 +1,22 @@
+name: MyPlugin2
+version: '${project.version}'
+main: psn.myplugin2.MyPlugin2
+api-version: '1.20'
+commands:
+  myplugin:
+    description: ""
+    permission: mp.main
+    aliases: mp
+  gm:
+    description: "Change Player's gamemode"
+    permission: mp.gm
+  opinv:
+    description: "Open an inventory"
+    permission: mp.opinv
+  openrubbishbin:
+    description: "Open rubbish bin"
+    permission: mp.openrubbishbin
+    aliases:
+      - rubbish
+      - bin
+      - rubbishbin
